@@ -862,7 +862,7 @@ public class FlickrFaves extends JPanel implements ActionListener {
 		System.setProperty("java.net.useSystemProxies", "true");
 
 		// initialize window
-		JFrame frame = new JFrame("FlickrFaves " + Constants.VERSION);
+		JFrame frame = new JFrame("FlickrFaves " + Constants.VERSION + " (Unofficial build)");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(450, 280);
 
